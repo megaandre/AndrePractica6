@@ -1,31 +1,38 @@
 ---
 layout: base.njk
-title: Hola Mundo 11ty
+title: Mi Blog
 ---
 
 # {{ title }}
 
-- Primavera
-- Verano
-- Otoño
-- Invierno
+- El segundo mas cabron de los cabroncitos
+
+![Banner perfil]({{ '/static/img/bannerPerfil.png' | url }})
 
 [Acerca]({{ '/acerca' | url }})
 
-## Artículos de mi Blog
+## Blog
 
-### Categoría Libros
+### Mis Juegos Favoritos
 
-{% for libro in collections.libros %}
+{% for juego in collections.juegos %}
 
-- [{{libro.data.title}}]({{ libro.url | url }})
+- [{{juego.data.title}}]({{ juego.url | url }})
 
 {% endfor %}
 
-### Categoria Series
+### Mis Series Favoritas
 
 {% for serie in collections.series %}
 
 - [{{serie.data.title}}]({{ serie.url | url }})
+
+{% endfor %}
+
+### Mis Peliculas Favoritas
+
+{% for pelicula in collections.peliculas %}
+
+- [{{pelicula.data.title}}]({{ pelicula.url | url }})
 
 {% endfor %}

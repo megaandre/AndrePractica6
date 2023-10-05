@@ -1,12 +1,12 @@
 ---
 layout: base.njk
-title: Sección Acerca
+title: Sobre mí
 ---
 
 # {{ title }}
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque doloremque rem similique asperiores voluptas inventore vero illum eveniet sunt, aut velit incidunt laborum modi atque excepturi praesentium ut veritatis. Facilis.
+Hola, soy Andre Cerdan, un estudiante universitario apasionado por el aprendizaje, los videjuegos y la exploración de nuevos conocimientos. Actualmente, estoy cursando la carrera Desarrollo de Software y Videojuegos en la Universidad Amerike, donde me encuentro en el tercer semestre de mi carrera.
 
-![ser Feliz]({{ '/static/img/ser-feliz.jpg' | url }})
+![ser Feliz]({{ '/static/img/andrec.jpg' | url }})
 
 [Home]({{ '/' | url }})
