@@ -1,15 +1,14 @@
-body {
-  color: #eee;
-  background-color: #222;
-  font-family: sans-serif;
-}
-
 a {
-  color: aqua;
+  color: green;
 }
 
 a:hover {
-  opacity: 0.8;
+  color: white;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #f0db4f;
 }
 
 img{
@@ -17,4 +16,67 @@ img{
   height: 25%;
   margin: 0 auto;
   display: block;
+}
+
+td,
+th {
+  border: 1px solid black;
+}
+
+iframe {
+  max-width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+#top {
+  text-align: center;
+  background-color: green;
+}
+
+.grayscale {
+  filter: grayscale(1);
+}
+
+.rotate-90 {
+  transform: rotate(90deg);
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.bg-khaki {
+  background-color: khaki;
+}
+
+.bg-pink {
+  background-color: pink;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-red {
+  color: red;
+}
+
+.text-blue {
+  color: blue;
+}
+
+td {
+  text-align: center;
 }
