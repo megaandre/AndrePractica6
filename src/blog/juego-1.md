@@ -16,6 +16,6 @@ tags: juegos
 
 La historia nos introduce en un futuro distante, donde asumimos el papel del Master Chief, un supersoldado genéticamente mejorado, en su lucha contra los Covenant, una alianza de razas alienígenas hostiles. La trama es rica y envolvente, con giros inesperados y personajes carismáticos, como Cortana, la inteligencia artificial que asiste al Jefe Maestro en su viaje.
 
-![Halo CE]({{ '/static/img/halo-ce.jpg' | url }})
+![Halo CE]({{ '/static/img/haloce.jpg' | url }})
 
 [Home]({{ '/' | url }})
